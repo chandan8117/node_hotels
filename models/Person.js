@@ -1,5 +1,5 @@
-const { uniqueId } = require("lodash");
 const mongoose = require("mongoose");
+// const bcrypt = require("bcrypt");
 
 const personSchema = new mongoose.Schema({
   name: {
